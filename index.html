@@ -1,25 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<title>Hangman Game Homework</title>
-	<link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/lumen/bootstrap.min.css" rel="stylesheet" integrity="sha384-gv0oNvwnqzF6ULI9TVsSmnULNb3zasNysvWwfT/s4l8k5I+g6oFz9dye0wg3rQ2Q" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <meta charset="UTF-8">
+    <title>Hangman Game Homework</title>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
+
 <body>
-
-	<span id="word"></span>
-	<br>
-
-	Previous guesses:<br>
-	<span id="previous-guesses"></span>
-	<br>
-	Remaining guesses:<br>
-	<span id="remaining-guesses"></span>
-
-
-	<script type="text/javascript" src="assets/javascript/game.js"></script>
-	<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
-	
+    <div class="container">
+    	<div class="row">
+    		<div class="col-xs-12">
+    			<div class="page-header">
+  					<h1 style="text-align:center">HANGMAN</h1>
+					</div>
+    		</div>
+    	</div>
+			<div class="row">
+				<div class="col-xs-12">
+    	<div class="jumbotron">
+        <h1><span id="word"></span></h1></div>
+    </div></div>
+        <div class="row" style="text-align:center">
+            <div class="col-xs-12">
+                <div class="panel panel-primary">
+                    <div class="panel-title">Previous guesses:</div>
+                    <div class="panel-body">
+                        <span id="previous-guesses"></span>
+                    </div>
+                </div>
+                <div class="panel panel-warning">
+                    <div class="panel-title">
+                        Remaining guesses:</div>
+                    <div class="panel-body">
+                        <span id="remaining-guesses"></span>
+                    </div>
+                </div>
+                <div class="panel panel-success">
+                    <div class="panel-title">
+                        Wins:</div>
+                    <div class="panel-body">
+                        <span id="wins"></span>
+                    </div>
+                </div>
+                <div class="panel panel-danger">
+                    <div class="panel-title">
+                        Losses:</div>
+                    <div class="panel-body">
+                        <span id="losses"></span>
+                    </div>
+                </div>
+                <script type="text/javascript" src="assets/javascript/game.js"></script>
+                <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
 </body>
+
 </html>
