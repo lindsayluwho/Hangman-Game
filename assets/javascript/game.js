@@ -1,7 +1,7 @@
 //define variables: wins, user guesses, guesses remaining, losses, potential words, word selected, and previous guesses
 //Set up the array with potential words
 
-var words = ["zebra", "lion", "tiger", "gazelle", "giraffe", "hippo"];
+var words = ["zebra", "lion", "tiger", "gazelle", "giraffe", "hippo", "elephant", "penguin", "leopard", "cheetah", "jaguar", "meerkat", "warthog", "hyena"];
 var wordsIndex = 0;
 var word = words[wordsIndex];
 var letters = word.length;

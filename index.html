@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Hangman Game Homework</title>
-    <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+ 
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:900" rel="stylesheet">
+
 </head>
 
 <body>
@@ -17,7 +17,8 @@
     	<div class="row">
     		<div class="col-xs-12">
     			<div class="page-header">
-  					<h1 style="text-align:center">HANGMAN</h1>
+  					<h1 style="text-align:center">ANIMAL HANGMAN</h1><br>
+  					<h2> Guess a letter! The answer is wild.</h2>
 					</div>
     		</div>
     	</div>
@@ -28,29 +29,29 @@
     </div></div>
         <div class="row" style="text-align:center">
             <div class="col-xs-12">
-                <div class="panel panel-primary">
-                    <div class="panel-title">Previous guesses:</div>
+                <div class="panel panel-primary"><div class="panel-heading">
+                    <h3 class="panel-title">Previous guesses:</h3></div>
                     <div class="panel-body">
                         <span id="previous-guesses"></span>
                     </div>
                 </div>
-                <div class="panel panel-warning">
-                    <div class="panel-title">
-                        Remaining guesses:</div>
+                <div class="panel panel-warning"><div class="panel-heading">
+                    <h3 class="panel-title">
+                        Remaining guesses:</h3></div>
                     <div class="panel-body">
                         <span id="remaining-guesses"></span>
                     </div>
                 </div>
-                <div class="panel panel-success">
-                    <div class="panel-title">
-                        Wins:</div>
+                <div class="panel panel-success"><div class="panel-heading">
+                    <h3 class="panel-title">
+                        Wins:</h3></div>
                     <div class="panel-body">
                         <span id="wins"></span>
                     </div>
                 </div>
-                <div class="panel panel-danger">
-                    <div class="panel-title">
-                        Losses:</div>
+                <div class="panel panel-danger"><div class="panel-heading">
+                    <h3 class="panel-title">
+                        Losses:</h3></div>
                     <div class="panel-body">
                         <span id="losses"></span>
                     </div>
