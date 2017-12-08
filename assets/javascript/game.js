@@ -36,7 +36,6 @@ document.onkeyup = function(event) {
         {
             alert("You won!");
             wins += 1;
-
             playAgain();
         }
         console.log("Correct guess: " + guess);
@@ -93,8 +92,9 @@ function newWord(){
         }
 
         //create an array of underscores
-        var underscore = underscores.split(" ");
+        underscore = underscores.split(" ");
         wordsIndex++;
+        correctGuesses = 0;
         return;
     }
 
